@@ -1,3 +1,138 @@
+
+.product-manufact{
+  display: flex;
+  justify-content :center;
+  padding: 2px;
+
+}
+.product-manufact p a{
+  color:#282c34;
+  padding: 15px;
+  text-decoration: none;
+}
+.product-manufact p a:hover{
+  color:#ff6a00;
+
+}
+.product-manufact p  a:focus{
+  color:#282c34;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.navInp{
+  width: 500px;
+  border: 2px solid rgb(255, 106, 0);
+  border-right: none;
+  border-radius: 50px;
+
+  
+
+}
+.formInp{
+  /* margin-left: 160px; */
+  position: relative;
+  right:180px; 
+
+}
+.navInpbtn{
+  
+
+  background-color: rgb(255, 106, 0);
+  color: white;
+  border-radius: 50px;
+  width: 120px;
+  margin-left: -40px;
+  text-align: right;
+  padding-right: 20px;
+
+}
+.h{
+  height: 10px;
+}
+.navSign{
+  height: 4px;
+  width: 90px;
+}
+.navProf{
+  font-size: 2rem;
+  /* display: block;
+  align-items: center;
+  justify-content: center; */
+  position: relative;
+  top: 10px;
+  width: 20px;
+  margin-right: 15px;
+  
+}
+.navSignMain{
+  position: absolute;
+  right: 250px;
+  top: 17px;
+}
+.navMessageMain{
+  position: absolute;
+  right: 170px;
+  top: 17px;
+}
+.navMessage{
+
+  position: relative;
+  left: 25px;
+  font-size: 20px;
+}
+.navOrderMain{
+  position: absolute;
+  right: 100px;
+  top: 17px;
+}
+.navOrder{
+
+  position: relative;
+  left: 17px;
+  font-size: 22px;
+}
+.navCartMain{
+  position: absolute;
+  right: 50px;
+  top: 17px;
+}
+.navCart{
+
+  position: relative;
+  /* left: px; */
+  font-size: 20px;
+}
+.rc1{
+  border: 1px solid black;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.Card-Title{
+
+
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }

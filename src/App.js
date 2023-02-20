@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Ccard from './card';
+import Card from './card';
+import SNavbar from './navbar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <>
+    <div>
+      {/* product/manufactures heading */}
+      <div className='product-manufact' >
+        <p><a href="">Products</a></p>
+        <p><a href="">Manufacturers</a></p>
+      </div>
+
+
+
+
+
+
+    <SNavbar />
+    <Ccard />
+
+
+
     </div>
+    
+    
+    </>
   );
 }
 
